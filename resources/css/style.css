@@ -2,7 +2,7 @@ body {
   font-family: Helvetica;
   font-weight: bold;
   text-align: center;
-  background-image
+  background-image: none;
 }
 
 h1 {
@@ -23,6 +23,7 @@ p {
   font-size: 14px;
 }
 
-#home, ul {
-  background-image:"./resources/images/the-flatiron-building.png";
+#home {
+  background: transparent url(../images/the-flatiron-building.png) 0 0 no-repeat;
+  background-size: cover;
 }
